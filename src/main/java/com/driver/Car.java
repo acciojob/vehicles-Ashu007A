@@ -54,7 +54,7 @@ public class Car extends Vehicle {
         return seats;
     }
 
-    protected int getCurrentGear() {
+    public int getCurrentGear() {
         return currentGear;
     }
 }
